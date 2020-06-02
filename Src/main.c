@@ -96,7 +96,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  char *message = "HelloWorld!\r\n";
+  char *message = "Hello World!\r\n";
   while (1)
   {
       HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
